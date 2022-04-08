@@ -9,8 +9,6 @@ function Posts({ posts }) {
     query(storageRef, orderBy("timestamp", "desc"))
   );
 
-  console.log(666, posts);
-
   return (
     <div>
       {realtimePosts
