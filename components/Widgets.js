@@ -3,7 +3,10 @@ import { DotsHorizontalIcon, VideoCameraIcon } from "@heroicons/react/solid";
 import Contact from "./Contact";
 
 const contacts = [
-  { src: "https://links.papareact.com/kxk", name: "Eldar Hidirov" },
+  {
+    src: "https://avatars.githubusercontent.com/u/59839989?v=4",
+    name: "Eldar Hidirov",
+  },
   { src: "https://links.papareact.com/f0p", name: "Jeff Bezoz" },
   { src: "https://links.papareact.com/kxk", name: "Elon Musk" },
   { src: "https://links.papareact.com/zvy", name: "Bill Gates" },
